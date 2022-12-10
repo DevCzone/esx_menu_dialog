@@ -74,14 +74,14 @@
 	width: 84%;
 	height: 32px;
   outline: 0;
-  background: #1f2533;
+  background: #ff2929;
   border-radius: 5px;
-  border: solid #5a0d91;
+  border: solid #ffffff;
   border-width: 0.1px;
   margin-top: 10px;
   margin-left: 25px;
   margin-right: 25px;
-  color: #ffffff;
+  color: #000000;
   font-weight: bold;
   position: relative;
 
@@ -110,19 +110,19 @@
 
 .dialog button[name="submit"] {
   margin-left: 40%;
-  background-color: rgba(88, 218, 76, 0.8);
+  background-color: rgba(181, 102, 255, 0.8);
 }
 
 .dialog button[name="submit"]:hover {
   animation: pulse_green 1s infinite;
-  background-color: rgba(88, 218, 76, 0.6);
+  background-color: rgba(181, 102, 255, 0.8);
 }
 
 .head::before,
 .head::after {
 	content: "";
 	flex-grow: 1;
-	background: #1f2533;
+	background: #ff2929;
 	height: 2px;
 	margin: 0px 3px;
 }
