@@ -86,7 +86,7 @@ Citizen.CreateThread(function()
 					PlaySound(0, "Menu_Accept", "Phone_SoundSet_Default", 0, 0, 1);
 				end
 			else
-				ESX.ShowNotification('That input is invalid!')
+				ESX.ShowNotification('See input on vale!')
 			end
 		end
 
@@ -128,15 +128,15 @@ Citizen.CreateThread(function()
 			end
 
 			if OpenedMenuCount > 0 then
-				DisableControlAction(0, 1,   true) -- LookLeftRight
-				DisableControlAction(0, 2,   true) -- LookUpDown
-				DisableControlAction(0, 142, true) -- MeleeAttackAlternate
-				DisableControlAction(0, 106, true) -- VehicleMouseControlOverride
-				DisableControlAction(0, 12, true) -- WeaponWheelUpDown
-				DisableControlAction(0, 14, true) -- WeaponWheelNext
-				DisableControlAction(0, 15, true) -- WeaponWheelPrev
-				DisableControlAction(0, 16, true) -- SelectNextWeapon
-				DisableControlAction(0, 17, true) -- SelectPrevWeapon
+				DisableControlAction(0, 1,   true)
+				DisableControlAction(0, 2,   true)
+				DisableControlAction(0, 142, true)
+				DisableControlAction(0, 106, true)
+				DisableControlAction(0, 12, true)
+				DisableControlAction(0, 14, true)
+				DisableControlAction(0, 15, true)
+				DisableControlAction(0, 16, true)
+				DisableControlAction(0, 17, true)
 			else
 				Citizen.Wait(500)
 			end

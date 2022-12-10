@@ -2,7 +2,7 @@ fx_version 'adamant'
 
 game 'gta5'
 
-description 'REDESIGN V2 by Re1ease#0001'
+description 'ORIGINAL FROM PRIMACO BUT REDESIGN FROM CUBE'
 
 client_script 'client/main.lua'
 
